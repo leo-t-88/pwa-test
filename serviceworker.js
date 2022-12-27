@@ -4,9 +4,7 @@ const contentToCache = [
   '/index.html',
   '/app.html',
   '/offline.html',
-  '/scripts/main.js',
-  '/images/icons/baseline-get_app-24px.svg',
-  '/images/icons/baseline-help-24px.svg',
+  '/theme.js',
 ];
 
 // Install the Service Worker
