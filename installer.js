@@ -1,4 +1,4 @@
-installPromptEvent;
+let installPromptEvent;
 const installLink = document.querySelector(".install-link");
 
 // Install App functionality
