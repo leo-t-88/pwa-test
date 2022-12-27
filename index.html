@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PWA test</title>
+    <link rel="manifest" href="./app.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#7FFFD4"/>
+    <meta name="description" content="PWA Test"/>
+    <meta name="keywords" content="PWA, Test, PWA Test">
+    <meta name="title" content="Tropic Music">
+    <meta property="og:title" content="Tropic Music">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leo-t-88.github.io">
+    <meta property="og:description" content="PWA Test">
+    <link rel="icon" type="image/png" href="https://leo-t-88.github.io/files/tropic-music.png"/>
+</head>
+<body>
+    <h1 id="ofl">???</h1>
+</body>
+<script>
+if (navigator.onLine) {
+    document.getElementById("ofl").innerHTML = "Online";
+} else {
+    document.location.href = 'D:/Codage%20web/Music/offline.html';
+}
+    window.addEventListener('offline', () => {
+  document.location.href = 'D:/Codage%20web/Music/offline.html';
+});
+
+window.addEventListener('online', () => {
+    document.getElementById("ofl").innerHTML = "Online";
+});
+</script>
+<script src="./theme.js"></script>
+</html>
