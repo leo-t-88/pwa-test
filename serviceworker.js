@@ -4,7 +4,9 @@ const contentToCache = [
   '/index.html',
   '/app.html',
   '/offline.html',
+  '/theme.css',
   '/theme.js',
+  'https://https://leo-t-88.github.io/files/tropic-music.png',
 ];
 
 // Install the Service Worker
