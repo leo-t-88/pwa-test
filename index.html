@@ -47,7 +47,7 @@ window.addEventListener('online', () => {
 <script>
    if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./serviceworker.js", { scope: '/' });
+        navigator.serviceWorker.register("./serviceworker.js", { scope: '/pwa-test/' });
     });
   }
 </script>
