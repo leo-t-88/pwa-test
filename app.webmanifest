@@ -1,7 +1,7 @@
 {
-    "name": "Tune music",
-    "short_name": "Tune music",
-    "description": "Tune Music : téchachargez et écoutez gratuitement vos chansons et webradio préférées.",
+    "name": "PWA Test",
+    "short_name": "PWA Test",
+    "description": "PWA Test",
     "icons": [
         {
             "src": "/favicons/android-chrome-192x192.png",
@@ -15,7 +15,7 @@
         }
     ],
     "scope":"/",
-    "start_url": "/app",
+    "start_url": "/",
     "theme_color": "#4fa1a7",
     "background_color": "#eeeeee",
     "display": "standalone"
