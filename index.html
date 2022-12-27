@@ -15,8 +15,16 @@
     <meta property="og:url" content="https://leo-t-88.github.io">
     <meta property="og:description" content="PWA Test">
     <link rel="icon" type="image/png" href="https://leo-t-88.github.io/files/tropic-music.png"/>
+    <link rel="stylesheet" href="theme.css">
 </head>
 <body>
+<nav class="theme-switch-wrapper">
+  <em>Thème :</em>
+    <label for="themecheck" class="theme-switch">
+      <input type="checkbox" id="themecheck"/>
+      <div class="slider round"></div>
+    </label>
+</nav>
     <h1 id="ofl">???</h1>
 </body>
 <script>
@@ -34,4 +42,12 @@ window.addEventListener('online', () => {
 });
 </script>
 <script src="./theme.js"></script>
+<script src="./installer.js"></script>
+<script>
+   if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./serviceworker.js", { scope: '/app' });
+    });
+  }
+</script>
 </html>
