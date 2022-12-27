@@ -32,10 +32,10 @@
 if (navigator.onLine) {
     document.getElementById("ofl").innerHTML = "Online";
 } else {
-    document.location.href = 'D:/Codage%20web/Music/offline.html';
+    document.location.href = './offline.html';
 }
     window.addEventListener('offline', () => {
-  document.location.href = 'D:/Codage%20web/Music/offline.html';
+  document.location.href = './offline.html';
 });
 
 window.addEventListener('online', () => {
