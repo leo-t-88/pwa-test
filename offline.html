@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1 id="ofl">Vous êtes hors ligne</h1>
+</body>
+<script>
+if (navigator.onLine) {
+    document.location.href = 'D:/Codage%20web/Music/test.html';
+} else {
+    document.getElementById("ofl").innerHTML = "Offline";
+}
+    window.addEventListener('offline', () => {
+  document.getElementById("ofl").innerHTML = "Offline";
+});
+
+window.addEventListener('online', () => {
+    document.location.href = 'D:/Codage%20web/Music/test.html';
+});
+</script>
+</html>
