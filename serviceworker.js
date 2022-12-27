@@ -1,4 +1,4 @@
-const cacheName = 'tunemusic';
+const cacheName = 'leot88pwatest';
 const contentToCache = [
   '/',
   '/index.html',
