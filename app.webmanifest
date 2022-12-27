@@ -14,8 +14,8 @@
             "type": "image/png"
         }
     ],
-    "scope":"/",
-    "start_url": "/",
+    "scope":"/pwa-test/",
+    "start_url": "/pwa-test/",
     "theme_color": "#4fa1a7",
     "background_color": "#eeeeee",
     "display": "standalone"
